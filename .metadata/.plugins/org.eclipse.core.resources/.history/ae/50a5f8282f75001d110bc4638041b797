@@ -1,0 +1,17 @@
+package com.lec.ex04_writer;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class WriterMain {
+
+	public static void main(String[] args) throws Exception {
+
+		Writer writer = new FileWriter("src/com/lec/ex02_output/output1.txt");
+		
+		char[] data = "대한민국만세".toCharArray();
+		
+	}
+
+}

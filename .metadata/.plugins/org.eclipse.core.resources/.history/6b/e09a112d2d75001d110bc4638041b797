@@ -1,0 +1,17 @@
+package com.lec.ex03_reader;
+/*
+	Reader클래싀 주요메서드
+	
+	1.read()
+	2.read(char[] c)
+	3.read(char[] c, off, len)
+	4.close()
+*/
+public class RaderMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

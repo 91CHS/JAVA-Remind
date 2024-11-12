@@ -1,0 +1,17 @@
+package com.lec.ex03_reader;
+/*
+	Reader클래싀 주요메서드
+	
+	1.
+	2.
+	3.
+	4.
+*/
+public class RaderMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

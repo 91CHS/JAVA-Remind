@@ -1,0 +1,8 @@
+package com.lec.ex02_board222;
+
+public class Parents {
+		
+		void papa () {
+			System.out.println("아빠의 요리");
+		};
+}

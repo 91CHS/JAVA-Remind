@@ -1,0 +1,27 @@
+package com.lec.ex01_nongeneric;
+
+public class BoxMain {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
+
+class Box {
+	
+	private Object object;
+
+	public Object getObject() {
+		return object;
+	}
+
+	public void setObject(Object object) {
+		this.object = object;
+	}
+	
+	
+	
+}

@@ -1,0 +1,37 @@
+package com.lec.ex02_output;
+
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+/*
+ 	
+ 	OutputStream
+ 	
+ 	FileOutputStream,PrintOutputStream,BufferOutputStream,DataOutputStream은 모두
+ 	OutputStream을 상속한다
+ 	
+ 	OutputStream의 주요메서드
+ 	
+ 	1. write(int byte)
+	2. write(byte[] b)
+	3. write(bute[] b, off, len)
+	4. flush()
+	5. close()
+ 	
+ 	
+ */
+public class WriteMain {
+
+	public static void main(String[] args) {
+		
+		OutputStream os = new FileOutputStream("src/com/lec/ex01_output/output1.txt");
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.lec.ex02_board;
+
+public class BoardVO {
+
+	
+	 bno     number         not null primary key
+     , subject varchar2(100)  not null
+     , writer  varchar2(50)   not null
+     , crtdate date          default sysdate
+     , readcnt number         default 0
+     , content varchar2(256)
+     
+}

@@ -1,0 +1,21 @@
+package com.lec.ex03_map.hashtable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashTableMain {
+
+	public static void main(String[] args) {
+		
+		Map<String,String> map = new HashMap<>();
+		
+		
+		//로그인정보 : select id, pw from members;
+		
+		
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,32 @@
+package com.lec.ex02_set;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapMain1 {
+
+	public static void main(String[] args) {
+		// 1. Map객체생성
+		
+		Map<String,Integer> map = new HashMap<>();
+		
+		// 2. 객체저장 - put()
+		map.put("홍길동", 85);
+		map.put("홍길순", Integer.valueOf(80));
+		map.put("홍길자", 75);
+		map.put("홍길녀", 95);
+		map.put("홍길상", 55);
+		map.put("홍길동", 67); // 키중복은 에러는 발생하지 않지만 값이 대치된다.
+		System.out.println(map.size());
+		
+		// 3. 객체검색(1) - get(Object)
+		
+		
+		// 4. 객체검색(2) - keySet()
+		// 5. 객체검색(3) - entrySet()
+		// 6. 객체삭제 - remove()
+		// 7. 전체삭제 - clear()
+
+	}
+
+}

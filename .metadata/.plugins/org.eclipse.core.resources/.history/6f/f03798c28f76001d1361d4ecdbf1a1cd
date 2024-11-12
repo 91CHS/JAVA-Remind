@@ -1,0 +1,27 @@
+package com.lec.ex02_board222;
+
+public class Child {
+		
+	Parents	parents = new Parents() {
+		
+			String name = "한솔";
+			
+			
+		
+		
+	};
+	
+	void method1() {
+		Parents	parents2 = new Parents() {
+			
+		};
+		
+	};
+	
+	
+	void method2(Parents ppap) {
+		ppap.papa();
+		
+	};
+	
+}

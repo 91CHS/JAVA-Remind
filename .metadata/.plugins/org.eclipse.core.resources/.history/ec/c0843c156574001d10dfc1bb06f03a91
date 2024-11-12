@@ -1,0 +1,40 @@
+package com.lec.ex03_map.hashtable;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashTableMain {
+
+	public static void main(String[] args) {
+		
+		Map<String,String> map = new HashMap<>();
+		
+		
+		//로그인정보 : select id, pw from members;
+		map.put("kim","12345");
+		map.put("hong","6789.");
+		map.put("son","abcde");
+		map.put("lee","xyz");
+		
+		// containsKey() : 키 존재여부 확인
+		System.out.println(map.get("xxxx")); // nell
+		System.out.println("son회원의 비밀번호 = " + map.get("son"));
+		
+		while(true) {
+			System.out.println("아이디와 비밀번호를 입력하세요");
+			System.out.println("아이디=> ");
+			String id = scanner.nextLine();
+			System.out.println("비밀번호 =>");
+			String pw = scanner.nextLine();
+			
+			if(map.containsKey(id)) {
+				if(map.get(id).endsWith(pw));
+			}
+		}
+		
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.lec.ex03_multi_type;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Product {
+	
+}

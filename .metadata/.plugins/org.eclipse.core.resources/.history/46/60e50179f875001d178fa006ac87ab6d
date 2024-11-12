@@ -1,0 +1,6 @@
+package com.lec.ex02_board;
+
+public class BoardFactory {
+	
+	// 실습. BoardDAOImpl을 싱글톤으로 작성
+}

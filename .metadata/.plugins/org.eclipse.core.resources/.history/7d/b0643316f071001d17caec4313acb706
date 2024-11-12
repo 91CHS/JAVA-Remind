@@ -1,0 +1,6 @@
+package com.lec.ex02_name;
+
+public class ThreadB extends Thread {
+		
+	public ThreadB() {}
+}

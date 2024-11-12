@@ -1,0 +1,14 @@
+package com.lec.ex01_list;
+
+public class ArraysAsListMain {
+
+	public static void main(String[] args) {
+		
+		// 일반배열 초기화
+		String[] names = {"홍길동","홍길순","홍길자","홍길녀","홍길상","손흥민"};
+		
+		
+		
+	}
+
+}

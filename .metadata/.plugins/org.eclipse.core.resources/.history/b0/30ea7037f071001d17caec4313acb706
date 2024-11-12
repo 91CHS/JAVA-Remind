@@ -1,0 +1,6 @@
+package com.lec.ex02_name;
+
+// ex01에선 Runnable 상속으로 쓰레드를 만들었지만 이번엔 Thread를 상속받아서 만드는 법
+public class ThreadA extends Thread {
+
+}

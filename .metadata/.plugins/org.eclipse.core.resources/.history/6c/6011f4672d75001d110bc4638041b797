@@ -1,0 +1,31 @@
+package com.lec.ex03_reader;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.Reader;
+
+/*
+	Reader클래싀 주요메서드
+	
+	1.read()
+	2.read(char[] c)
+	3.read(char[] c, off, len)
+	4.close()
+*/
+public class RaderMain {
+
+	public static void main(String[] args) throws Exception {
+		
+		Reader reader = new FileReader("src/com/lec/ex01_input/news.txt");
+		
+//		1.read()
+		int readData;
+		while(true) {
+			readData = reader.read();
+		}
+//		2.read(char[] c)
+//		3.read(char[] c, off, len)
+//		4.close()
+	}
+
+}

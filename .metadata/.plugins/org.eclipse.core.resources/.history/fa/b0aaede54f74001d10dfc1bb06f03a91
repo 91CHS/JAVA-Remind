@@ -1,0 +1,28 @@
+package com.lec.ex02_set;
+
+public class HashSetMain2 {
+
+	public static void main(String[] args) {
+		
+		Set<>
+
+	}
+
+}
+
+class Member {
+	
+	String name;
+	int age;
+	
+	public Member(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", age=" + age + "]";
+	}
+	
+	
+}

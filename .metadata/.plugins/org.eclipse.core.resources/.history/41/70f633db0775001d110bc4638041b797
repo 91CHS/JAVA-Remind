@@ -1,0 +1,33 @@
+package com.lec.ex04_tree.set;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class TreeSetMain3 {
+
+	public static void main(String[] args) {
+
+		// 범위검색
+		TreeSet<String> set = new TreeSet<>();
+		set.add("apple");
+		set.add("c");
+		set.add("forever");
+		set.add("javascript");
+		set.add("python");
+		set.add("ever");
+		set.add("zoo");
+		set.add("baseball");
+		set.add("cherry");
+		set.add("f");
+
+		System.out.println("[c~f 사이의 단어 검색하기!!]");
+//		set.subSet("c","f"); 
+		NavigableSet<String> words =  set.subSet("c",false, "f",true); // c초과,f 이하
+		for(String word:words) {
+			System.out.println(word + " ");
+		}
+		
+		
+	}
+
+}

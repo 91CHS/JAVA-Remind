@@ -1,0 +1,20 @@
+package com.lec.ex06_wildcard;
+
+/*
+	와일드카드(<?>, <? extends 상위타입>, <? super 하위타입>)
+	
+	제네릭타입을 매개값이나 리턴타입으로 사용할 때 구체적인 타입대신에
+	와일드 카드를 사용할 수 있다. 와일드 카드를 사용하는 형태는 3가지가 있다.
+	
+	1. <?>                  : 타입의 제한이 없다.
+	2. <? extends 상위타입> : 하위타입만 가능하다 즉, 상위타입은 제한
+	3. <? super 하위타입>   : 상위타입만 가능하다 즉, 하위타입은 제한
+*/
+public class WildCardMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

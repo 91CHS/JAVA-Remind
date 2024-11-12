@@ -1,0 +1,11 @@
+package com.lec.ex02_name;
+
+public class ThreadMain {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

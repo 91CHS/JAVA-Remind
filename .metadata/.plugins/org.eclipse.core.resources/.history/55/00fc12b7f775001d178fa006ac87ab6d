@@ -1,0 +1,24 @@
+package com.lec.ex02_board;
+
+public class BoardVO {
+
+	
+	 private int bno; 
+     private String subject; 
+     private String writer;
+     private String crtdate; 
+     private int readcnt;
+     private String content;
+     
+     public BoardVO() {
+		this.bno = 0;
+		this.subject = null;
+		this.writer = null;
+		this.crtdate = null;
+		this.readcnt = 0;
+		this.content = null;
+	}
+     
+     
+     
+}

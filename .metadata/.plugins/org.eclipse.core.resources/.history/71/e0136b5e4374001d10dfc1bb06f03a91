@@ -1,0 +1,68 @@
+package com.lec.ex01_list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VectorMain {
+
+	public static void main(String[] args) {
+		
+		// 1. ArrayList - Member
+		List<Member> Members = new ArrayList<>();
+		// 2. Vector - Board
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+class Member {
+
+	int id;
+	String pw;
+	String name;
+	String email;
+	public Member(int id, String pw, String name, String email) {
+		this.id = id;
+		this.pw = pw;
+		this.name = name;
+		this.email = email;
+	}
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", pw=" + pw + ", name=" + name + ", email=" + email + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}	
+}
+
+class Board {
+	
+	int bno;
+	String title;
+	String writher;
+	String content;
+	public Board(int bno, String title, String writher, String content) {
+		this.bno = bno;
+		this.title = title;
+		this.writher = writher;
+		this.content = content;
+	}
+	@Override
+	public String toString() {
+		return "Board [bno=" + bno + ", title=" + title + ", writher=" + writher + ", content=" + content + "]";
+	}
+	
+}

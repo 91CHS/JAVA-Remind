@@ -1,0 +1,27 @@
+package com.lec.ex01_list;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class pr {
+	
+	public static void main(String[] args) {
+		
+		List<String> lnkList = new LinkedList<>();
+		
+		lnkList.add("성형이");
+		lnkList.add("최성형이");
+		lnkList.add("오늘");
+		lnkList.add("공부를");
+		lnkList.add("했는가?");
+		lnkList.add("그런가?");
+		lnkList.add("확실한가?");
+		
+		System.out.println(lnkList.get(2));
+		
+		lnkList.remove(1);
+		
+		System.out.println(lnkList.get(2));
+		
+	}
+}

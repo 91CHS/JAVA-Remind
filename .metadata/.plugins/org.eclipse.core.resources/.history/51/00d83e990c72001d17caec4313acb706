@@ -1,0 +1,10 @@
+package com.lec.ex06_wildcard;
+
+public class WildCardMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

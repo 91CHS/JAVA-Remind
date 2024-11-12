@@ -1,0 +1,42 @@
+package com.lec.ex01_basic;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class JDBCConnection {
+
+	public static void main(String[] args) {
+		
+		final static String DRV = "oracle.jdbc.OracleDriver";
+		
+		Connection conn = null;
+		
+
+		try {   
+			Class.forName(DRV);
+			conn = DriverManager.getConnection(null, null, null)
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  // classRoader가 method영역에 oracle드라이버를 로딩
+		
+		
+	}
+
+}

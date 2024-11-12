@@ -1,0 +1,20 @@
+package com.lec.ex01_basic;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class UpdateMain {
+	
+	final static String DRV = "oracle.jdbc.OracleDriver";
+	final static String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+	final static String USR = "scott";
+	final static String PWD = "tiger";
+
+	public static void main(String[] args) {
+			
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		String sql = "";
+	}
+
+}

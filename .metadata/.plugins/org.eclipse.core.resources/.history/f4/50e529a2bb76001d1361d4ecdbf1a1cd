@@ -1,0 +1,10 @@
+package com.lec.db;
+
+public class JDBCConnector {
+
+		public static Connection getConnection() {}
+		public static void close(Connection conn, Statement stmt,ResultSet rs) {}
+		
+		
+		
+}

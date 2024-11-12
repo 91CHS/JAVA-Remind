@@ -1,0 +1,22 @@
+package com.lec.ex02_return;
+
+public class FunctionalInterfaceMain {
+
+	public static void main(String[] args) {
+		
+		FunInterface fi1 = null;
+		
+		fi1 = (a,b) -> { return a + b ;};
+//		fi1 = (a,b) -> { return a * b ;};  하나의 객체로 여러 수행 가능.
+		
+		
+		
+
+	}
+
+}
+
+@FunctionalInterface
+interface FunInterface {
+	int method(int x, int y);
+}

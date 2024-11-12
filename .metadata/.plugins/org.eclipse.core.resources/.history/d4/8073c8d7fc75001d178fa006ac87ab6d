@@ -1,0 +1,32 @@
+package com.lec.ex02_board;
+
+public class ConnectionFactory {
+
+	
+	private String path = ConnectionFactory.class.getResource("jdbc.properties").getPath();
+	
+	private String DRV = null;
+	private String URL = null;
+	private String USR = null;
+	private String PWD = null;
+
+	private String insert = null;
+	private String select = null;
+	private String update = null;
+	private String delete = null;
+	
+	
+	
+	public ConnectionFactory() {
+		setUp();
+	}
+
+	
+	// jdbc.properties정보를 읽어오는 메서드
+	// db접속정보와 sql정보를 가져오는 메서드
+	public void setUp() {
+		
+	}
+	
+	
+}

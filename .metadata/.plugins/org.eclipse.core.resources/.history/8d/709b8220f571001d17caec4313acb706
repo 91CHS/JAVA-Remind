@@ -1,0 +1,47 @@
+package com.lec.ex01_nongeneric;
+
+public class BoxMain {
+
+	public static void main(String[] args) {
+		
+		Box 과일상자 = new Box();
+		
+		과일상자.setObject(과일상자);
+		
+		
+		
+		
+		
+		Box 도구상자 = new Box();
+		
+
+	}
+
+}
+
+class Box {
+	
+	private Object object;
+
+	public Object getObject() {
+		return object;
+	}
+
+	public void setObject(Object object) {
+		this.object = object;
+	}
+		
+}
+
+class Apple{
+	@Override
+	public String toString() {
+		return "나는 사과입니다!";
+	}
+}
+class Hammer{
+	@Override
+	public String toString() {
+		return "나는 망치입니다.";
+	}
+}

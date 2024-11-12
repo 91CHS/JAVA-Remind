@@ -1,0 +1,19 @@
+package com.lec.ex05_file;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class FileOutputStreamMain {
+
+	public static void main(String[] args) throws Exception {
+		
+		String org_img = "src\\com\\lec\\ex05_file\\Crismas.jfif";
+		String cpy_img = "src\\com\\lec\\ex05_file\\Crismas.jpg";
+		
+		FileInputStream fis = new FileInputStream(org_img);
+		FileOutputStream fos = new FileOutputStream(cpy_img);
+
+	}
+
+}

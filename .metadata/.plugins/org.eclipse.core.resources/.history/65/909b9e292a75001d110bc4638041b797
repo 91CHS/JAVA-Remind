@@ -1,0 +1,17 @@
+package com.lec.ex02_output;
+/*
+ 	
+ 	OutputStream
+ 	
+ 	FileOutputStream,PrintOutputStream,BufferOutputStream,DataOutputStream은 모두
+ 	OutputStream을 상속한다
+ 	
+ 	OutputStream의 주요메서드
+ 	
+ 	
+ 	
+ 	
+ */
+public class WriteMain {
+
+}

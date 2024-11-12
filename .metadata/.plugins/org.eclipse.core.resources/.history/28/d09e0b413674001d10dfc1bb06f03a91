@@ -1,0 +1,16 @@
+package com.lec.ex01_noarg;
+
+public class FunctionalInterfaceMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+@FunctionalInterface
+interface FuncInterface {
+	void method();
+}

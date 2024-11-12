@@ -1,0 +1,16 @@
+package com.lec.ex01_input;
+/*
+ 	InputStream
+ 	
+ 	InputStream은 바이트기반 입력스트림의 최상위 추상클래스이다.
+ 	
+ 	
+ */
+public class ReadMain1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

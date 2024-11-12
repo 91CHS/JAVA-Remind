@@ -1,0 +1,31 @@
+package com.lec.ex01_create;
+
+public class BeepMain2 {
+
+	public static void main(String[] args) {
+		
+		// Thread객체를 만드는 방법
+		// 1. 외부에 클래스 생성(BeepTask1.java, Runnable구현객체)
+		Runnable beepTask =new BeepTask1();  // 외부클래스로 객체 만들기
+		Thread thread1 = new Thread(beepTask); // 쓰레드 객체로 만들기
+		thread1.start();    // 쓰레드1 시작!
+	
+		// 띵출력을 5번
+		for(int i=0;i<5;i++) {
+			System.out.println("띵~~");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		
+		// 2. 익명객체(인터페이스)
+		
+		// 3. 람다식
+
+	}
+
+}

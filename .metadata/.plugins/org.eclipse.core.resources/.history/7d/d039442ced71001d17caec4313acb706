@@ -1,0 +1,17 @@
+package com.lec.ex01_create;
+
+public class BeepMain2 {
+
+	public static void main(String[] args) {
+		
+		// Thread객체를 만드는 방법
+		// 1. 외부에 클래스 생성(BeepTask1.java, Runnable구현객체)
+		
+		
+		// 2. 익명객체(인터페이스)
+		
+		// 3. 람다식
+
+	}
+
+}

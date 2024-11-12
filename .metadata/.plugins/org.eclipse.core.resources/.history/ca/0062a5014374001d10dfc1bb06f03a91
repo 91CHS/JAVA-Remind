@@ -1,0 +1,20 @@
+package com.lec.ex01_list;
+
+public class VectorMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Member {
+
+	int id;
+	String pw;
+	String name;
+	String email;
+	
+	
+}

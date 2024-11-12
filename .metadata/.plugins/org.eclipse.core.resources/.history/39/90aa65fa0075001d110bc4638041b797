@@ -1,0 +1,8 @@
+package com.lec.ex04_tree.set;
+
+public class TreeSetMain1 {
+		
+		public static void main(String[] args) {
+			
+		}
+}

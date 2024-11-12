@@ -1,0 +1,18 @@
+package com.lec.ex02_board;
+
+public class ConnectionFactory {
+
+	
+	private String path = ConnectionFactory.class.getResource("jdbc.properties").getPath();
+	
+	public ConnectionFactory() {
+		setUp();
+	}
+
+	//jdbc.properties정보를
+	public void setUp() {
+		
+	}
+	
+	
+}

@@ -1,0 +1,25 @@
+package com.lec.ex05_compare;
+
+import java.util.TreeSet;
+
+public class ComparatorMain {
+
+	public static void main(String[] args) {
+		
+		TreeSet<Student> ts = new TreeSet<>();
+
+	}
+
+}
+
+class Student {
+	
+	String name;
+	int sno;
+	public Student(String name, int sno) {
+		this.name = name;
+		this.sno = sno;
+	}
+	
+	
+}

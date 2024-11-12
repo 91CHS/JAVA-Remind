@@ -1,0 +1,17 @@
+package com.lec.ex01_input;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class ReadMain3 {
+
+	public static void main(String[] args) {
+//		3. read(byte[]b, int off, int len)
+		
+		InputStream is = new FileInputStream("src/com/lec/ex01_input/news.txt");
+		
+		
+
+	}
+
+}

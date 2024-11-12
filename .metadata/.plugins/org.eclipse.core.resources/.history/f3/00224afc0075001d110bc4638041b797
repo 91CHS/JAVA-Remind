@@ -1,0 +1,12 @@
+package com.lec.ex04_tree.set;
+
+public class TreeSetMain1 {
+		
+		public static void main(String[] args) {
+			// TreeSet은 이진트리를 기반으로 한 컬레션이다.
+			// 하나의 노드는 노드값은 value와 왼쪽노드, 오른쪽노드를
+			// 참조하기 위한 변수로 구성된다.
+			
+			
+		}
+}

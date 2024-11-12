@@ -1,0 +1,17 @@
+package com.lec.ex04_method;
+
+public class MethodMain1 {
+
+	public static void main(String[] args) {
+		
+		// 1. 제네릭 메서드
+
+	}
+
+}
+
+class Box<T> {
+	private T t;
+	public T get() { return t; }
+	
+}

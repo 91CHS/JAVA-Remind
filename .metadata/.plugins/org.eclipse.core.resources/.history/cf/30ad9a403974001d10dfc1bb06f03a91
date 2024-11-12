@@ -1,0 +1,15 @@
+package com.lec.ex02_return;
+
+public class FunctionalInterfaceMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+@FunctionalInterface
+interface FunInterface {
+	int method(int a);
+}

@@ -1,0 +1,27 @@
+package com.lec.ex04_tree.set;
+
+import java.util.TreeSet;
+
+/*
+ 	TreeSet?
+ 
+	TreeSet은 이진트리를 기반으로 한 컬레션이다.
+	하나의 노드는 노드값은 value와 왼쪽노드, 오른쪽노드를
+	참조하기 위한 변수로 구성된다.
+	
+	TreeSet객체를 저장하면 자동으로 정렬되는데 부모값과 비교해서
+	작으면 왼쪽노드로 크면 오른쪽 노드로 저장된다.
+ */			
+public class TreeSetMain1 {
+		
+		public static void main(String[] args) {
+			
+			TreeSet<Integer> scores = new TreeSet<>();  // Set<Integer> scores = new TreeSet<>();은 안됨. set은 정렬이 안됨.
+			
+			
+			
+			
+			
+			
+		}
+}

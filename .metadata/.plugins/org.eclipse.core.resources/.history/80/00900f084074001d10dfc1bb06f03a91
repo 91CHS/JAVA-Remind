@@ -1,0 +1,39 @@
+package com.lec.ex01_list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListMain {
+
+	public static void main(String[] args) {
+		
+		// 1. ArrayList - non Generic
+		//  1) add
+		List list = new ArrayList();
+		list.add("문자열");
+		list.add(new String("자바"));
+		list.add(100);
+		list.add(Integer.valueOf(100));
+		list.add(new Car());
+		list.add(new Apple());
+		list.add(new Hammer());
+		
+		//  2) get
+		String str1 = (String) list.get(0);
+		String str2 = (String) list.get(1);
+		Integer val1 = (Integer) list.get(2);
+		Integer val2 = (Integer) list.get(3);
+		Car car = (Car) list.get(4);
+		Apple apple = (Apple) list.get(5);
+		Hammer hammer = (Hammer) list.get(6);
+		
+		
+		// 2. ArrayList - Generic
+		List list2 = new ArrayList<>();
+	}
+
+}
+
+class Car {}
+class Apple {}
+class Hammer {}

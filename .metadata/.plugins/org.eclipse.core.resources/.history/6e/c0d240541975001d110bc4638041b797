@@ -1,0 +1,27 @@
+package com.lec.ex05_compare;
+
+import java.util.Stack;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		
+		Stack<Coin> coin_box = new Stack<>();
+	}
+
+}
+
+class Coin {
+	
+	private int value;
+
+	public Coin(int value) {
+		this.value = value;
+	}
+
+	public int getValue() {
+		return value;
+	}
+	
+	
+}

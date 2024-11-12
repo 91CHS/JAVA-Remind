@@ -1,0 +1,16 @@
+package com.lec.ex02_set;
+
+public class HashMapMain1 {
+
+	public static void main(String[] args) {
+		// 1. Map객체생성
+		// 2. 객체저장 - put()
+		// 3. 객체검색(1) - get(Object)
+		// 4. 객체검색(2) - keySet()
+		// 5. 객체검색(3) - entrySet()
+		// 6. 객체삭제 - remove()
+		// 7. 전체삭제 - clear()
+
+	}
+
+}

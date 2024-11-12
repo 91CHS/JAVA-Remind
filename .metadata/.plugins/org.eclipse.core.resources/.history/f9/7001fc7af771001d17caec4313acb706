@@ -1,0 +1,36 @@
+package com.lec.ex01_generic;
+
+public class BoxMain {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Box<T> {
+	
+	private Object object;
+
+	public Object getObject() {
+		return object;
+	}
+
+	public void setObject(Object object) {
+		this.object = object;
+	}
+}
+
+class Apple{
+	@Override
+	public String toString() {
+		return "나는 사과입니다!";
+	}
+}
+class Hammer{
+	@Override
+	public String toString() {
+		return "나는 망치입니다.";
+	}
+}

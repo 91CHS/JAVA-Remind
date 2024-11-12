@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java01.variables/java01.variables.iml" filepath="$PROJECT_DIR$/java01.variables/java01.variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java02.opertators/java02.opertators.iml" filepath="$PROJECT_DIR$/java02.opertators/java02.opertators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java03.if_for/java03.if_for.iml" filepath="$PROJECT_DIR$/java03.if_for/java03.if_for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java04.ref_type/java04.ref_type.iml" filepath="$PROJECT_DIR$/java04.ref_type/java04.ref_type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java05_class/java05_class.iml" filepath="$PROJECT_DIR$/java05_class/java05_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java06_inheritance/java06_inheritance.iml" filepath="$PROJECT_DIR$/java06_inheritance/java06_inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java07.interface/java07.interface.iml" filepath="$PROJECT_DIR$/java07.interface/java07.interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java08.nested/java08.nested.iml" filepath="$PROJECT_DIR$/java08.nested/java08.nested.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java09.exception/java09.exception.iml" filepath="$PROJECT_DIR$/java09.exception/java09.exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java10.summarize/java10.summarize.iml" filepath="$PROJECT_DIR$/java10.summarize/java10.summarize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java11.basic_api/java11.basic_api.iml" filepath="$PROJECT_DIR$/java11.basic_api/java11.basic_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java12.thread/java12.thread.iml" filepath="$PROJECT_DIR$/java12.thread/java12.thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java13.generic/java13.generic.iml" filepath="$PROJECT_DIR$/java13.generic/java13.generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java14.lambda/java14.lambda.iml" filepath="$PROJECT_DIR$/java14.lambda/java14.lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java15.collection/java15.collection.iml" filepath="$PROJECT_DIR$/java15.collection/java15.collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java16.ionetwork/java16.ionetwork.iml" filepath="$PROJECT_DIR$/java16.ionetwork/java16.ionetwork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java17.jdbc/java17.jdbc.iml" filepath="$PROJECT_DIR$/java17.jdbc/java17.jdbc.iml" />
+    </modules>
+  </component>
+</project>

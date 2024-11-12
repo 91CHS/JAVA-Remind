@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+G:\USB-CHS\03.java\.metadata\.plugins\org.eclipse.jdt.core
+595906537.index
+4039583848.index
+1865797976.index

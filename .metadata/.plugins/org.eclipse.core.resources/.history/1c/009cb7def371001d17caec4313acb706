@@ -1,0 +1,10 @@
+package com.lec.ex01_nongeneric;
+
+public class BoxMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

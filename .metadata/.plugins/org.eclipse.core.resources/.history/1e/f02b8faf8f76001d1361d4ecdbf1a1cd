@@ -1,0 +1,10 @@
+package com.lec.ex02_board222;
+
+public class Child {
+		
+	Parents	parents = new Parents();
+	
+	
+	
+	
+}

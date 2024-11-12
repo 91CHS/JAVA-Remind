@@ -1,0 +1,14 @@
+package com.lec.ex03_map.properties;
+/*
+ 	Properties는 Hashtable의 하위클래스이기 때문에 Hashtable의 모든 속성을 그대로 가지고 있다.
+ 	
+ 
+ */
+public class PropertiesMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

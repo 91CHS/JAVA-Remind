@@ -1,0 +1,7 @@
+driver=oracle.jdbc.OracleDriver
+url=jdbc.oracle:thin:@localhost:1521
+user=scott
+password=tiger
+hangul=\uD64D\uAE38\uB3D9
+
+# Comment=€

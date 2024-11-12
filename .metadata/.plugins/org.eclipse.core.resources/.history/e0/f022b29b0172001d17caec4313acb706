@@ -1,0 +1,24 @@
+package com.lec.ex03_multi_type;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+	
+		
+	}
+
+}
+
+class Product<K,M> {
+	
+	private K kind;
+	private M model;
+	
+}
+
+class Car {}
+class TV {}
+class Student {}
+class Robot {
+	
+}

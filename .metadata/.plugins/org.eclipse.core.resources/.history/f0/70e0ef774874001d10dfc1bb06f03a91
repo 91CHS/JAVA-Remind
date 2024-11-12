@@ -1,0 +1,17 @@
+package com.lec.ex01_list;
+import java.util.*;
+public class LinkedListMain {
+
+	public static void main(String[] args) {
+		
+		List<String> arrList = new ArrayList<>();
+		List<String> lnkList = new LinkedList<>();
+		
+		// 
+		
+		
+		
+		
+	}
+
+}

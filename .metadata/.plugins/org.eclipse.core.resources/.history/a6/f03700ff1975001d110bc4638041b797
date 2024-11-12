@@ -1,0 +1,26 @@
+package com.lec.ex06_fifo_lifo;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueMain {
+
+	public static void main(String[] args) {
+		// Queue는 인터페이스라서 
+		Queue<Massage> msg = new LinkedList<Massage>();
+
+	}
+
+}
+
+class Massage {
+	String msg;
+	String to;
+	
+	public Massage(String msg, String to) {
+		this.msg = msg;
+		this.to = to;
+	}
+	
+	
+}

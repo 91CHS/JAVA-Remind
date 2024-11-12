@@ -1,0 +1,22 @@
+package com.lec.ex03_map.properties;
+
+import java.util.Properties;
+
+/*
+ 	Properties는 Hashtable의 하위클래스이기 때문에 Hashtable의 모든 속성을 그대로 가지고 있다.
+ 	차이점은 Hashtable은 키와 값에 다양한 참조타입으로 정의할 수 있지만 Properties는 키와 값의
+ 	데이터타입은 오직 String타입으로만 정의할 수 있게 제한된 Map컬렉션이다.
+ 	
+ 	Properties는 어플리케이션의 옵션정보,데이터베이스의 연결정보,그리고 국제와(다국어)정보가
+ 	저장된 프로퍼티파일을 관리할 때 주로 사용한다.
+ 
+ */
+public class PropertiesMain {
+
+	public static void main(String[] args) {
+		
+		Properties properties = new Properties();
+
+	}
+
+}

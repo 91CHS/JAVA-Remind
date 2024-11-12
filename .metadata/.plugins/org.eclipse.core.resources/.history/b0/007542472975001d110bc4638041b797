@@ -1,0 +1,14 @@
+package com.lec.ex01_input;
+
+
+public class ReadMain3 {
+
+	public static void main(String[] args) {
+//		3. read(byte[]b, int off, int len)
+		
+		
+		
+
+	}
+
+}

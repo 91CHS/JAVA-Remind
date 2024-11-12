@@ -1,0 +1,17 @@
+package com.lec.ex01_list;
+
+public class ArraysAsListMain {
+
+	public static void main(String[] args) {
+		
+		// 일반배열 초기화
+		String[] names = {"홍길동","홍길순","홍길자","홍길녀","홍길상","손흥민"};
+		
+		// ArrayList는 일반배열처럼 초기화기능 없다.
+		// 대신에 Arrays.asList(값1,...값n)을 이용해서 초기화를 한다.
+		// 
+		
+		
+	}
+
+}
