@@ -3,7 +3,8 @@ package com.lec.ex06_promotion.typechange;
 public class PromotionMain {
 
 	public static void main(String[] args) {
-				
+
+		// A-B-D 상속관계 , A-C-E 상속관계
 		A a = new A();
 		B b = new B();
 		C c = new C();

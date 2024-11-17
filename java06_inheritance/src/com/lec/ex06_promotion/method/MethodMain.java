@@ -31,6 +31,7 @@ public class MethodMain {
         System.out.println(parent == child); // true
         System.out.println(parent.equals(child)); // true
         System.out.println();
+        // 참조 주소가 그대로 타입만 다르게 담겼다고 생각하자
         
         Parent p1 = new Parent();
         System.out.println(p1 == child); //false

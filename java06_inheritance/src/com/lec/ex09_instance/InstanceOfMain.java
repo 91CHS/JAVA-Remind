@@ -4,7 +4,7 @@ package com.lec.ex09_instance;
  	
  	강제타입변환은 자식객체에서 부모객체로 타입변환이 되어 있는 상태에서만 가능하기 때문에
  	부모타입의 변수가 부모객체를 참조할 경우 자식타입으로 변환할 수가 없다.
- 	어떤 객체가 어느 클래스의 인스턴스(객체)인지 확인하려면 instanceOf현산자를 사용할 수가 있다.
+ 	어떤 객체가 어느 클래스의 인스턴스(객체)인지 확인하려면 instanceOf 연산자를 사용할 수가 있다.
  	
  	예를들어
  	Parent parent = new Parent();
@@ -34,7 +34,7 @@ public class InstanceOfMain {
 		
 		Parent parentA = new Parent();
 		
-		//method1(parentA);
+//		method1(parentA); // 단순 부모로 만들어서 강제형변환이 필요한 메소드는 실패함.
 		method2(parentA);
 		System.out.println();
 		
@@ -52,7 +52,7 @@ public class InstanceOfMain {
 
 	static void method2(Parent parent) {
 		System.out.println(parent.getClass());
-		if(parent instanceof Child) {
+		if(parent instanceof Child) {   // parent 객체가 Child class로 만든 객체라면 true
 			Child child = (Child) parent;
 			System.out.println("강제형변환성공!! - 중요한 로직!!");
 		} else {

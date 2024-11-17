@@ -20,11 +20,11 @@ public class CastingMain {
 		// 1. 자동형변환
 //		Child child = new Child();
 //		Parent parent = child;
-		Parent parent = new Child();
+		Parent parent = new Child(); // 한번에 자식->부모 자동형변환
 		parent.filed1 = "사용가능";
-		//parent.filed2 = "사용불가능";
+		//parent.filed2 = "사용불가능"; // 자식 필드엔 접근 불가
 		parent.method1();
-		parent.method2(); // 사용가능하지만 child의 method2가 호출
+		parent.method2(); // 사용가능하지만 child의 method2가 호출. 오버라이딩
 		//parent.method3(); 사용불가능
 				
 		System.out.println();
@@ -34,7 +34,8 @@ public class CastingMain {
 		int i = (int)1.0; // 기본 강제형변환 형식
 		Child child = (Child)parent; // 클래스의 강제형변환 형식
 		child.filed1 = "사용가능";
-		child.filed2 = "사용가능";
+		System.out.println(child.filed2); // 기존값도 쓸 수 있음
+		child.filed2 = "사용가능";  // 수정도 가능
 		child.method1(); // Parent
 		child.method2(); // Child
 		child.method3(); // Child
@@ -51,8 +52,9 @@ public class CastingMain {
 		//따라서, 부모객체에서 자식객체로 직접형변환은 불가능하다.
 		
 		
-//		Parent parent1 = new Child(); 클래스에서 직접 온거
-		Parent parent2 = new Parent();  // 객체로 갔다오게 만드는거
+		Parent parent1 = new Child(); // 자동형변환한 부모타입의 자식객체를
+		Child child1 = (Child) parent1;  // 다시 자식으로 강제형변환 가능함.
+		Parent parent2 = new Parent();  // 그냥 부모 객체는 불가능함.
 		Child child2 = (Child) parent2; //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		// 문법에러는 아니지만 실행시 예외가 발생한다.
 		// java.lang.ClassException

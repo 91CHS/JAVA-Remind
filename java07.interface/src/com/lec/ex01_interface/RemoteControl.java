@@ -5,7 +5,7 @@ package com.lec.ex01_interface;
    Java에서는 인터페이스는 객체의 사용방법을 정의한 설계도이다. interface도 참조타입이다.
    인터페이스는 객체의 교환성(형변환)을 높여 주기 때문에 다형성을 구현하는 매우 중요한
    역할을 한다. 특히, Java8버전에서부터 인터페이스의 중요성은 커졌다. Java8람다식은
-   함수적 인터페이스(Function Interface)의 구현객체를 생성하기 때문이다.
+   함수적 인터페이스(Function Interface)의 구현객체를 생성하기 때문이다. (익명구현객체?)
    
    인터페이스는 개발코드와 객체가 서로 통신하는 접점역할을 한다. 개발코드가 인터페이스의
    메서드를 호출하면 인터페이스는 객체의 메서드를 호출한다. 그렇기 때문에 개발코드는 객체의
@@ -71,4 +71,16 @@ class TVRmocon implements RemoteControl {
 		RemoteControl.changeBattery(); // 객체생성없이 인터페이스만으로 호출
 	}
 	
+}
+
+class Doit {
+	public static void main(String[] args) {
+		System.out.println(RemoteControl.MAX_VOLUMN);
+
+		TVRmocon tvRmocon = new TVRmocon();
+		tvRmocon.setMute(true);
+
+		RemoteControl.changeBattery();
+
+	}
 }

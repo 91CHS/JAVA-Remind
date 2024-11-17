@@ -7,7 +7,7 @@ public class DriverMain {
 		Driver driver = new Driver();
 		driver.drive();
 		Vechicle vechicle = new Vechicle();
-		driver.drive();
+		vechicle.run();
 		driver.drive(vechicle);
 		driver.drive(new Taxi());
 		driver.drive(new Bus());
