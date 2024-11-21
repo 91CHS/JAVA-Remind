@@ -32,7 +32,7 @@ public class NullPointMain {
 			String data = null;
 			
 			// NullPointerException 예외는 객체참조가 없는 상태를 의미한다.
-			// 즉, 객체가 없는 상태에서 객체를 참조하려고 할 때 예외가 발생하낟.
+			// 즉, 객체가 없는 상태에서 객체를 참조하려고 할 때 예외가 발생한다.
 			System.out.println(data.toString()); // Null이라서 없으니 예외
 			
 			System.out.println("이후것들은 실행이 안돼요!!");

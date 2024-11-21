@@ -20,6 +20,7 @@ public class TryCatMain1 {
 			System.out.println();
 						
 			System.out.println(e.getMessage()); // 3.  java.lang.Stringxxx
+			System.out.println("e.printStackTrace()는 실행문의 마지막에 오네");
 		}
 
 	}

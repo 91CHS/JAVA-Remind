@@ -13,8 +13,10 @@ public class ClassCastMain {
 	}
 
 	private static void changeDog(Animal animal) {
-		 Dog dog = (Dog) animal; // Animal객체를 Dog로 강제 형변환
-		System.out.println(dog);
+//		if(animal instanceof Dog) { // 도그일때만 허용하게해서 예외를 방지할 수 있다.
+			Dog dog = (Dog) animal; // Animal객체를 Dog로 강제 형변환
+			System.out.println(dog);
+//		}
 	}
 
 }

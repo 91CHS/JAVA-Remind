@@ -21,8 +21,9 @@ public class 최한솔 {
 //	Tv(int price) {
 //		super(price);
 //	} 
-	// 부모인 Prodect의 생성자를 따라 매개변수를 넣어줘야하고, 부모의 메서드를 호출하기 위해서
+	// 부모인 Product의 생성자를 따라 매개변수를 넣어줘야하고, 부모의 메서드를 호출하기 위해서
 	// super에 값을 넣어준다.
+
 	
 //	class Exercise7_5 {
 //		public static void main(String[] args) {

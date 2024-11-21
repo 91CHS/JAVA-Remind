@@ -15,12 +15,14 @@ public class ImplementMain {
 		ia.methodA();
 //		ia.methodB();
 //		ia.methodC();
+		System.out.println();
 
 		// 2. im => InterfaceB
 		InterfaceB ib = im;
 //		ib.methodA();
 		ib.methodB();
 //		ib.methodC();
+		System.out.println();
 		
 		// 3. im => InterfaceC
 		InterfaceC ic = im;

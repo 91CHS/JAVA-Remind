@@ -17,7 +17,7 @@ public class TryCatMain2 {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("실행할 매개변수가 부족합니다!");
 			e.printStackTrace();
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());  // Index 0 out of bounds for length 0
 			return;
 		}
 		System.out.println();
