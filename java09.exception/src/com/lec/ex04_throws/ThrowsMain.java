@@ -17,21 +17,22 @@ public class ThrowsMain {
 	public static void main(String[] args) throws Exception {
 		
 //		Class _class = Class.forName("java.lang/String");
-//		String data = args[0];
-//		int val = Integer.parseInt(data);
+		String data = args[0];
+		int val = Integer.parseInt(data);
 		
-		method();  // 
+//		method1();
+//		method();
 	}
 
 	private static void method() throws ClassNotFoundException {
 		Class _class = Class.forName("java.lang/String"); // 예외를 method()에 떠넘기기
 	}
-	
-	void method1() {
+
+	static void method1() {
 		try {
 			method();          // method()를 method1()에 떠넘기기
 		} catch (ClassNotFoundException e) {
-			
+			System.out.println("method1에서 예외를 처리했습니다.");
 			e.printStackTrace();
 		}
 	}

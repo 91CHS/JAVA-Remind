@@ -15,6 +15,8 @@ public class AccountMain {
 		account.출금(200);
 		System.out.println("현재 통장장액 = "+account.getBalance());
 		System.out.println();
+
+
 		
 		try {
 			account.출금1(200);
