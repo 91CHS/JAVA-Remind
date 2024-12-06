@@ -13,11 +13,13 @@ public class 최한솔 {
 //		d  main 호출 mathod1 호출 method2 호출 순서이다.
 		
 		// 8-3 오버라이딩이 잘못된 것을 모두 고르시오.
-//		  d,e 오버라이딩시에 조상 클래스의 메서드보다 많은 수의 예외를 선언할 수 없다. 
+//		  d,e 오버라이딩시에 조상 클래스의 메서드(예외)보다 많은 수(조상도 안됨)의 예외를 선언할 수 없다.
 		
 		// 8-4 잘못된 예외처리를 모두 고르시오.
 //		   c  Exception에 예외처리할 경우 catch문 가장 마지막에 나와야 한다.
-		
+
+/* 여기서부터 try-catch문 실행순서에 관련된 부분이다. 프로그래밍할 때 예외처리를 해야하기 때문에 꼭 숙지해야하는 부분이라고 생각한다.*/
+
 		// 8-5 아래 코드의 결과
 		
 //		1
@@ -55,7 +57,7 @@ public class 최한솔 {
 		
 //		class UnsupportedFuctionException extends RuntimeException {
 //
-//			private final int ERR_CODE = 100;
+//			private final int ERR_CODE;
 //
 //
 //

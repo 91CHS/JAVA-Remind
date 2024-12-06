@@ -56,12 +56,12 @@ public class StringTokenizerMain {
 			
 			st = new StringTokenizer(text,"/");
 			// 2. while
-			while(st.hasMoreElements()) {
+			while(st.hasMoreTokens()) {
 				String token = st.nextToken();
 				System.out.println(token);			
 			}
 			System.out.println("현재 token의 갯수 = " + st.countTokens());
-			System.out.println("현재 token이 남아 있는지 여부 = " + st.hasMoreElements());	
+			System.out.println("현재 token이 남아 있는지 여부 = " + st.hasMoreTokens());
 			
 			
 	}

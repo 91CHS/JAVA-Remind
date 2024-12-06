@@ -75,7 +75,7 @@ public class StringBufferMain {
 		System.out.println(sb.hashCode() + ", " + sb + " , 문자열이 총 갯수 " + sb.length());
 		
 		// 9.StringBuffer를 String타입으로 형변환
-		String result = sb.toString(); // 원래 스트링 타입이라 String타입으로 안해줘도 됨
+		String result = sb.toString(); // toString()은 리턴이 스트링타입
 		System.out.println(result.hashCode() + ", " + result + ", " + result.getClass());
 		
 		//10.String를 StringBuffer타입으로 형변환
